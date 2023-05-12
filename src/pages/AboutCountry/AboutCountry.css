@@ -1,0 +1,46 @@
+.buttons{
+    margin: 0px 0px 50px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.button_{
+    margin: 0px 20px 0px 20px;
+    border-radius: 20px;
+    border: 10px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 500;
+    background: #474747;
+    cursor: pointer;
+    transition: all 8ms ease;    
+}
+
+.goBack{
+    color: #ffffff;
+}
+
+.buttons button:hover{
+    background-color: #929292;    
+    outline: 3px solid #ffffff;
+}
+
+.active{
+    background: #474747;   
+    outline: 3px solid #fdfdfd;
+}
+
+@media(max-width: 680px){
+    .flags{
+      width: 250px;
+    }
+    .buttons{
+        flex-wrap: wrap;
+        margin: 0px 0px 20px 0px;
+    }
+    .buttons *{
+        margin: 0px 5px 20px 5px;
+        height: 60px;
+    }
+  }

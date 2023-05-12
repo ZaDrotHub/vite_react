@@ -1,0 +1,14 @@
+body{
+    background: #404d5d;
+    height: 100%;
+}
+#root {
+  margin: 0 auto;
+  max-width: 1440px;
+  padding: 0px 15px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
