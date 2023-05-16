@@ -20,6 +20,9 @@ function CountriesList({ contriesOnPage}) {
       isVisible: false,
       object: null,
     });
+    const sortedCountries = countriesOnPage.sort((a, b) =>
+    a.name.common.localeCompare(b.name.common)
+  );
   };
   return (
     <>
